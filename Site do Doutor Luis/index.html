@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Raupp | Psicoterapeuta</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Luis Raupp</h1>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <nav class="nav-desktop">
+                <a href="#inicio" class="nav-link">Início</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#contato" class="nav-link">Contato</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+
+            <a href="#contato" class="btn btn-primary nav-cta">Agendar Consulta</a>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav class="nav-mobile" id="mobileNav">
+            <a href="#inicio" class="nav-link-mobile">Início</a>
+            <a href="#servicos" class="nav-link-mobile">Serviços</a>
+            <a href="#contato" class="nav-link-mobile">Contato</a>
+            <a href="#faq" class="nav-link-mobile">FAQ</a>
+            <a href="#contato" class="btn btn-primary mobile-cta">Agendar Consulta</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Encontre equilíbrio e 
+                    <span class="accent-text">bem-estar</span> interior
+                </h1>
+                <p class="hero-subtitle">
+                    Psicoterapia humanizada para adolescentes e adultos. 
+                    Um espaço seguro para seu crescimento pessoal.
+                </p>
+                <a href="#contato" class="btn btn-accent btn-large">
+                    Agende sua primeira consulta
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">
+                        Olá, eu sou o Luis Raupp
+                    </h2>
+                    <p class="about-description">
+                        Meu nome é Luis, sou psicólogo formado pela PUC-RS
+                        e pós-graduando em Arteterapia pelo Instituto Junguiano do Rio Grande do Sul (IJRS).
+                        Aliando a psicologia analítica com a humanista, procuro criar um espaço de conforto, 
+                        vínculo de confiança com meus clientes e profundidade para percebermos novos caminhos juntos.
+                        
+                    </p>
+                    <p class="about-description">
+                        Atendo presencialmente em Porto Alegre
+                        E também no formato online.
+                    </p>
+                    <div class="credentials">
+                        <div class="credential-item">
+                            <span class="credential-icon">👤</span>
+                            <span>CRP??</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="therapy-office.jpeg" alt="Consultório de psicoterapia" class="office-image">
+                    <div class="experience-badge">
+                        <p class="experience-years">Alguma coisa</p>
+                        <p class="experience-text">pra escrever aqui</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meus Serviços</h2>
+                <p class="section-subtitle">
+                    Ofereço diferentes modalidades de atendimento para atender suas necessidades específicas
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon primary-icon">
+                        <span>👤</span>
+                    </div>
+                    <h3 class="service-title">Psicoterapia Individual</h3>
+                    <p class="service-description">
+                        Atendimento personalizado para adolescentes e adultos, focado em autoconhecimento, 
+                        elaboração de traumas e desenvolvimento pessoal.
+                    </p>
+                    <ul class="service-features">
+                        <li>• Sessões de 50 minutos</li>
+                        <li>• Presencial ou online</li>
+                        <li>• Abordagem humanística</li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon secondary-icon">
+                        <span>🧠</span>
+                    </div>
+                    <h3 class="service-title">Arteterapia</h3>
+                    <p class="service-description">
+                        Facilita o autoconhecimento e o bem-estar emocional 
+                        através da expressão criativa e do uso de diferentes formas de arte.
+                    </p>
+                    <ul class="service-features">
+                        <li>• Promoção do autoconhecimento</li>
+                        <li>• Expressão de emoções por meio da arte</li>
+                        <li>• Estímulo à criatividade</li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon accent-icon">
+                        <span>❤️</span>
+                    </div>
+                    <h3 class="service-title">Terapia de Casal</h3>
+                    <p class="service-description">
+                        Acompanhamento para casais que desejam melhorar a comunicação, resolver conflitos 
+                        e fortalecer o relacionamento.
+                    </p>
+                    <ul class="service-features">
+                        <li>• Melhoria da comunicação</li>
+                        <li>• Resolução de conflitos</li>
+                        <li>• Fortalecimento do vínculo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="section-subtitle">
+                    Esclareça suas dúvidas sobre o processo terapêutico
+                </p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3 class="faq-question">Como funciona a primeira consulta?</h3>
+                    <p class="faq-answer">
+                        A primeira consulta é um momento de conhecimento mútuo. Conversaremos sobre suas expectativas, 
+                        histórico e objetivos terapêuticos. É também uma oportunidade para você conhecer minha abordagem 
+                        e decidir se deseja continuar o processo.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Qual a frequência das sessões?</h3>
+                    <p class="faq-answer">
+                        Geralmente recomendo sessões semanais de 50 minutos. A frequência pode ser ajustada conforme suas 
+                        necessidades e disponibilidade, sempre priorizando a continuidade do processo terapêutico.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Atende por convênio?</h3>
+                    <p class="faq-answer">
+                        Não atendo diretamente por convênio, mas forneço recibos para reembolso. Consulte seu plano de 
+                        saúde sobre os valores e procedimentos para reembolso de consultas psicológicas.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Como funciona a terapia online?</h3>
+                    <p class="faq-answer">
+                        A terapia online acontece por videochamada em plataforma segura e sigilosa. Tem a mesma eficácia 
+                        da presencial e oferece maior flexibilidade de horários e local de atendimento.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Quanto tempo dura um processo terapêutico?</h3>
+                    <p class="faq-answer">
+                        A duração varia conforme cada pessoa e seus objetivos. Alguns processos são mais breves (alguns meses), 
+                        outros mais longos. O importante é respeitar seu ritmo e necessidades.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">
+                    Estou aqui para ajudar você a dar o primeiro passo em direção ao seu bem-estar
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3 class="contact-info-title">Informações de Contato</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon phone-icon">
+                            <span>📞</span>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telefone</h4>
+                            <p>51 99558-5495</p>
+                            <small>WhatsApp disponível</small>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon email-icon">
+                            <span>✉️</span>
+                        </div>
+                        <div class="contact-details">
+                            <h4>E-mail</h4>
+                            <p>luis.raupp@email.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon location-icon">
+                            <span>📍</span>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Localização</h4>
+                            <p>Porto Alegre, RS</p>
+                            <small>Atendimento presencial e online</small>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon time-icon">
+                            <span>🕒</span>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Horários</h4>
+                            <p>Segunda a Sexta: 8h às 18h</p>
+                            <p>Sábado: 8h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h3 class="form-title">Envie uma Mensagem</h3>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome completo</label>
+                            <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(11) 99999-9999">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Conte um pouco sobre o que você gostaria de conversar..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>💬</span>
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Luis Raupp</h3>
+                <p>Psicoterapeuta | CRP 07/43378</p>
+                <p class="footer-copyright">© 2025 Luis Raupp. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
